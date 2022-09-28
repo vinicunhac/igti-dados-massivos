@@ -8,13 +8,13 @@ FILE_PATHS = {
         'ratings': 'data/tp/title_ratings.tsv'
         },
     'cloud':{
-        'basics': 'gs://edc_bootamp_data/data/title_basics.tsv',
-        'ratings': 'gs://edc_bootamp_data/data/title_ratings.tsv',
+        'basics': 'gs://edc_data_vini/data/titles_basics.tsv',
+        'ratings': 'gs://edc_data_vini/data/titles_ratings.tsv',
     }
 }
 SAVE_PATH = {
     'local': 'data/imdb/title_basics_with_rating',
-    'cloud': 'gs://edc_bootamp_data/data/title_basics_with_rating',
+    'cloud': 'gs://edc_data_vini/data/titles_basics_with_rating',
 }
 
 @f.udf(returnType=t.StringType())

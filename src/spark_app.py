@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from src.imdb_cleaning import ImdbCleaner
+from imdb_cleaning import ImdbCleaner
 import sys
 
 if __name__ == "__main__":
